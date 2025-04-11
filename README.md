@@ -67,3 +67,31 @@ GET http://localhost:8000/price?ticker=AAPL
 }
 ```
 
+### Example Response (Not Found)
+
+```bash
+{
+    "detail": {
+        "code": "2008E",
+        "msg": {
+            "th": "ไม่พบข้อมูลสำหรับ TEST",
+            "en": "Data not found for TEST."
+        }
+    }
+}
+```
+
+### Example Response (Exception)
+
+```bash
+{
+    "detail": {
+        "code": "5000E",
+        "msg": {
+            "th": "An unexpected error",
+            "en": "An unexpected error"
+        }
+    }
+}
+```
+
