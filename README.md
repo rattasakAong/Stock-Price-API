@@ -36,7 +36,8 @@ GET http://localhost:8000/price?ticker=AAPL
         "data": {
             "ticker": "AAPL",
             "price": 190.42,
-            "source": "api"
+            "currency": "USD",
+            "source": "cache"
         }
     }
 }
