@@ -2,19 +2,19 @@
 
 Use python 3 version 3.13.0
 
-#create env
+#1. create env
 
 python3 -m venv venv
 
-#apply env
+#2. apply env
 
 source venv/bin/activate
 
-#install dependency
+#3. install dependency
 
 pip install -r requirements.txt
 
-#run server
+#4. run server
 
 uvicorn main:app --reload
 
