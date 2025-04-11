@@ -24,8 +24,19 @@ GET http://localhost:8000/price?ticker=AAPL
 
 ##Example API Response
 
+
 {
-  "ticker": "AAPL",
-  "price": 172.24,
-  "source": "api"
+
+    "detail": {
+        "code": "0000I",
+        "msg": {
+            "th": "สำเร็จ",
+            "en": "SUCCESS"
+        },
+        "data": {
+            "ticker": "AAPL",
+            "price": 190.42,
+            "source": "api"
+        }
+    }
 }
