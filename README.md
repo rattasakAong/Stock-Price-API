@@ -1,20 +1,20 @@
 # Stock-Price-API
 
-Use python 3 version 3.13.0
+Use python3 version 3.13.0
 
-#1. create env
+#1. Create env
 
 python3 -m venv venv
 
-#2. apply env
+#2. Apply env
 
 source venv/bin/activate
 
-#3. install dependency
+#3. Install dependency
 
 pip install -r requirements.txt
 
-#4. run server
+#4. Run server
 
 uvicorn main:app --reload
 
