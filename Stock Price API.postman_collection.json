@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "d3e60434-b200-47d6-9d16-6cbe0fc613fd",
+		"name": "Stock Price API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10116923",
+		"_collection_link": "https://red-space-452438.postman.co/workspace/NCBI~3201e690-7ea6-4824-91ad-07067f6b8a71/collection/10116923-d3e60434-b200-47d6-9d16-6cbe0fc613fd?action=share&source=collection_link&creator=10116923"
+	},
+	"item": [
+		{
+			"name": "Get Stock Price",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/price?ticker=AAPL",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"price"
+					],
+					"query": [
+						{
+							"key": "ticker",
+							"value": "AAPL"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
